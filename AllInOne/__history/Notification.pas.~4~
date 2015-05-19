@@ -1,0 +1,35 @@
+unit Notification;
+
+interface
+
+uses System.SysUtils, System.Types, System.UITypes, System.Classes,
+  System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.TabControl,
+  FMX.StdCtrls, FMX.Layouts, FMX.Memo, FMX.DateTimeCtrls, DateUtils,
+  FMX.ListBox,
+  FMX.Controls.Presentation, FMX.Edit, FMX.EditBox, FMX.NumberBox, FMX.Platform,
+  FMX.Notification;
+
+var
+  NotificationArray: array of TNotification;
+
+implementation
+
+procedure ScheduleNotification(notifyCenter: TNotificationCenter; fireTime: TDateTime);
+var
+  Notification: TNotification;
+begin
+  Notification := notifyCenter.CreateNotification;
+  try
+    Notification.Name := 'TestName';
+    Notification.AlertBody := 'TestBody';
+
+    // fire at fireTime
+    Notification.FireDate := fireTime;
+    notifyCenter.ScheduleNotification(Notification);
+  finally
+    Notification.DisposeOf;
+  end;
+end;
+
+end.

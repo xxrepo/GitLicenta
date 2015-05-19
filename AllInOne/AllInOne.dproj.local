@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015-05-17 20:54:04.000.594,=C:\Users\Monica21\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015-05-17 21:03:02.000.420,E:\Facultate\Licenta\AllInOne\Unit1.pas=C:\Users\Monica21\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015-05-17 21:03:02.000.420,E:\Facultate\Licenta\AllInOne\Unit1.fmx=C:\Users\Monica21\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2015-05-17 21:03:06.000.879,E:\Facultate\Licenta\AllInOne\AllInOne.dproj=C:\Users\Monica21\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2015-05-17 23:39:31.000.777,=E:\Facultate\Licenta\AllInOne\Unit2.pas</Transaction>
+    <Transaction>2015-05-17 23:39:39.000.327,E:\Facultate\Licenta\AllInOne\Unit2.pas=E:\Facultate\Licenta\AllInOne\Notification.pas</Transaction>
+    <Transaction>2015-05-20 00:28:16.815,=E:\Facultate\Licenta\AllInOne\Unit2.pas</Transaction>
+    <Transaction>2015-05-20 00:28:22.838,E:\Facultate\Licenta\AllInOne\SMS.pas=E:\Facultate\Licenta\AllInOne\Unit2.pas</Transaction>
+  </Transactions>
+	<MobileDevice>emulator-5554</MobileDevice>
+</BorlandProject>
